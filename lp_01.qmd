@@ -1,0 +1,37 @@
+---
+title: "Learning Python 01"
+format: html
+editor: visual
+jupyter: python3
+---
+
+## Introduction
+
+Here are some references that I am going to start with:
+
+-   [Python for Data Analysis](https://wesmckinney.com/book/)
+
+    -   [GitHub Repo with Data](https://github.com/wesm/pydata-book)
+
+-   [Python Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+
+-   [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
+
+-   [NumPy Exercises](https://www.machinelearningplus.com/python/101-numpy-exercises-python/)
+
+## Running Code
+
+When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+
+```{python}
+1 + 1
+```
+
+You can add options to executable code like this
+
+```{python}
+#| echo: false
+2 * 2
+```
+
+The `echo: false` option disables the printing of code (only output is displayed).
