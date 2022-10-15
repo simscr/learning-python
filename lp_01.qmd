@@ -3,6 +3,8 @@ title: "Learning Python 01"
 format: html
 editor: visual
 jupyter: python3
+editor_options: 
+  chunk_output_type: console
 ---
 
 ## Introduction
@@ -24,7 +26,10 @@ Here are some references that I am going to start with:
 When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
 
 ```{python}
-1 + 1
+import numpy as np
+import pandas as pd
+
+# print("Hello world")
 ```
 
 You can add options to executable code like this
